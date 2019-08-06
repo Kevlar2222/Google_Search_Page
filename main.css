@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+div.footer{
+    background-color: whitesmoke;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+img.sign{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15x;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: 30px;
+}
+
+input{
+    font-size: 150%
+}
+
+li{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.round {
+    border-radius: 25px;
+    height: 50px;
+    width: 600px;
+    border: 1px lightgray solid;
+}
+
+ul{
+    list-style-type: none;
+}
