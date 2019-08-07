@@ -10,6 +10,25 @@ div.footer{
     width: 100%;
 }
 
+div.menu{
+    margin: 0 150px;
+}
+
+div.menu li{
+    margin: 0 15px;
+}
+
+div.menu li:hover{
+    color: lightblue;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: lightgray;
+    background-color:lightgray;
+}
+
 img.sign{
     display: inline-block;
     margin-right: 15px;
@@ -30,6 +49,12 @@ li{
     font-size: 15px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+p{
+    font-size: 15px;
+    color: gray;
+    margin: 0 155px;
 }
 
 .round {
