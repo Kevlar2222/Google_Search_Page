@@ -3,6 +3,17 @@
     padding: 0;
     }
 
+br.short{
+    content: "";
+    display: block;
+    margin-top: 12px;
+}
+
+div.adline{
+    color: green;
+    font-size: 13px;
+}
+
 div.footer{
     background-color: whitesmoke;
     bottom: 0;
@@ -11,7 +22,7 @@ div.footer{
 }
 
 div.menu{
-    margin: 0 150px;
+    margin: 0 165px;
 }
 
 div.menu li{
@@ -20,6 +31,17 @@ div.menu li{
 
 div.menu li:hover{
     color: lightblue;
+}
+
+div.result{
+    font-size: 17px;
+    color: blue;
+    margin: 0 800px 0 175px;
+}
+
+div.text{
+    color: slategray;
+    font-size: 13px;
 }
 
 hr {
@@ -54,13 +76,19 @@ li{
 p{
     font-size: 15px;
     color: gray;
-    margin: 0 155px;
+    margin: 0 175px;
+}
+
+span.ad{
+    border: solid green 1px;
+    color: green;
+    white-space: nowrap;
 }
 
 .round {
     border-radius: 25px;
     height: 50px;
-    width: 600px;
+    width: 650px;
     border: 1px lightgray solid;
 }
 
