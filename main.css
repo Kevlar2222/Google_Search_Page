@@ -12,13 +12,30 @@ br.short{
 div.adline{
     color: green;
     font-size: 13px;
+    line-height: 25px;
 }
 
 div.footer{
     background-color: whitesmoke;
     bottom: 0;
-    position: fixed;
+    color: gray;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px 800px 0 175px;
+    position: relative;
     width: 100%;
+}
+
+div.footer li{
+    color: gray;
+    margin-right: 25px;
+    margin-left: 25x;
+    padding-top: 10px;
+}
+
+div.footer ul{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 div.menu{
@@ -33,10 +50,22 @@ div.menu li:hover{
     color: lightblue;
 }
 
+div.pics{
+    border: 1px lightgray solid;
+    border-radius: 25px;
+    margin: 0 800px 0 175px;
+}
+
 div.result{
     font-size: 17px;
     color: blue;
     margin: 0 800px 0 175px;
+}
+
+div.second{
+    margin-left: 10px;
+    font-size: 17px;
+    color: black;
 }
 
 div.text{
@@ -53,12 +82,25 @@ hr {
 
 img.sign{
     display: inline-block;
-    margin-right: 15px;
-    margin-left: 15x;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
     top: 30px;
+}
+
+img.logos{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 80px;
+    width: 60px;
+}
+
+img.pages{
+    height: 140px;
+    margin-left: 300px;
+    width: 450px;
 }
 
 input{
@@ -85,6 +127,13 @@ span.ad{
     white-space: nowrap;
 }
 
+span.first{
+    margin-left: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+
 .round {
     border-radius: 25px;
     height: 50px;
@@ -94,4 +143,12 @@ span.ad{
 
 ul{
     list-style-type: none;
+}
+
+ul.links li{
+    color: blue;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60px;
 }
